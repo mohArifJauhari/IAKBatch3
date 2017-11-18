@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">IAK Batch 3 - Hallo dunia</string>
+    <string name="app_name">IAK Batch 3 - My Birtday Card</string>
+    <string name="happy_bday">Happy Birthday Arif</string>
+    <string name="from">From Arif</string>
 </resources>
