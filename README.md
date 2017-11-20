@@ -1,2 +1,2 @@
-IAK-BeginnerClass
-18 November 2017 : Membuat birthday card dan menu explicit
+IAK-BeginnerClass 18 - 19 November 2017
+On Universitas trilogi jakarta
