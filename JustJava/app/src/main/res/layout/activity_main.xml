@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="id.devroom.justjava.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_anda"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nama"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/topping"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/ckGula"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gula"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/ckKrim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/krim"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/ckLollipop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lollipop"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/ckKopi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kopi"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jumlah"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnTambah"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="tambah"
+                android:text="@string/plus"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtJumlah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnKurang"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="kurang"
+                android:text="@string/minus"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/harga"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtHarga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:onClick="pesan"
+            android:text="@string/pesan"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>
