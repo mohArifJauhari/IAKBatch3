@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Setting Up the App Bar</string>
+    <string name="app_name">App Bar</string>
+    <string name="action_favorite">favorite</string>
+    <string name="action_settings">settings</string>
 </resources>
